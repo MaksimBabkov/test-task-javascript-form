@@ -1,0 +1,124 @@
+.container-fluid {
+    margin: 0 auto;
+    max-width: 400px;
+    border: 1px solid black;
+}
+
+.container {
+    padding: 30px;
+}
+
+span {
+    font-size: 11px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome */
+    color: #82CFD0;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #82CFD0;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #82CFD0;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: #82CFD0;
+    opacity: 1;
+}
+
+.input {
+    height: 50px;
+}
+
+input {
+    height: 23px;
+    margin: 5px;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #0f1414;
+}
+
+/* plaseholder */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    white-space:pre-line;  
+    position:relative;
+    top:-7px;
+    
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+       white-space:pre-line;  
+    position:relative;
+    top:-7px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+      white-space:pre-line;  
+    position:relative;
+    top:-7px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+       white-space:pre-line;  
+    position:relative;
+    top:-7px;
+  }
+/* plaseholder */
+
+.progress {
+    background: linear-gradient(to right, #000000 0%, #000000 40%, rgb(0, 0, 0) 40%, rgb(0, 0, 0) 100%);
+    border-radius: 8px;
+    height: 1px;
+    width: 100%;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+.progress::-webkit-slider-thumb {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: #434343;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: rgb(4, 230, 242);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.btn {
+    transition-duration: 0.5s;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #686868;
+}
+
+.btn:hover {
+    transition-duration: 0.5s;
+    background-color: #454545;
+}
+
+.btn:active {
+    transition-duration: 0.1s;
+    background-color: #1c757b;
+}
