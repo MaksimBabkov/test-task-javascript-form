@@ -12,13 +12,13 @@
 <body>
     <div class="container-fluid">
         <div class="container">
-            <div><input type="text" placeholder="Имя"></div>
+            <div><input id="name" type="text" placeholder="Имя"></div>
             <hr>
-            <div><input type="text" placeholder="Ник в Telegram"></div>
+            <div><input id="telegram" type="text" placeholder="Ник в Telegram"></div>
             <hr>
-            <div><input type="text" placeholder="Ссылка на репозиторий этого задания"></div>
+            <div><input id="git" type="text" placeholder="Ссылка на репозиторий этого задания"></div>
             <hr>
-            <div><input type="text" placeholder="Что вы точно не хотите делать в работе, что вы делаете с нерхотой">
+            <div><input id="jobNegative" type="text" placeholder="Что вы точно не хотите делать в работе, что вы делаете с нерхотой">
             </div>
             <hr>
             <div>
@@ -30,8 +30,8 @@
                     </span>
                 </div>
             </div>
-            <div><input class="progress" type="range" value="40" min="0" max="100" step="1"></div>
-            <div><input  type="text" placeholder="Ваш коментарии (по желанию)"></div>
+            <div><input type="range" id="procent1" class="progress" min="0" max="100"></div>
+            <div><input id="comments1"  type="text" placeholder="Ваш коментарии (по желанию)"></div>
             <div>
                 <div><span style="font-weight: bold;">Готовы ли работать с CSS анимацией?</span></div>
                 <div>
@@ -40,20 +40,21 @@
                     </span>
                 </div>
             </div>
-            <div><input class="progress" type="range" value="40" min="0" max="100" step="1"></div>
-            <div><input class="input" type="text" placeholder="Ваш коментарии (по желанию)"></div>
+            <div><input type="range" id="procent2" class="progress" min="0" max="100"></div>
+            <div><input id="comments2" class="input" type="text" placeholder="Ваш коментарии (по желанию)"></div>
             <div><span>Как вы относитесь к рутиной работе?</span></div>
-            <div><input class="input" type="text"
+            <div><input id="taskDey" class="input" type="text"
                     placeholder="Бывают задачи интиресные , а бывает, к примеру, нужно добавить на сайт пару новых языков в режиме copy/paste в файл локализации или помочь опубликовать пост в блоге- md файл из Гугл документа">
             </div>
             <hr>
-            <div><input class="input" type="text"
+            <div><input id="taskJob" class="input" type="text"
                     placeholder="Готовы ли вы посвятит все 100% своего времени на рабрту с нашими задачами, не отвлекаясь на стороннюю разработку?">
             </div>
             <hr>
         </div>
         <button class="btn">Отправить</button>
     </div>
+    <div id="app"></div>
     <script type="text/javascript" src="index.js"></script>
 </body>
 
