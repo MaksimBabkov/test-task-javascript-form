@@ -28,7 +28,7 @@ document.querySelector('button').onclick = () => {
     document.getElementById("app").innerHTML = `<div class="modal">
         <p>name - ${data.name}</p>
         <p>telegram - ${data.telegram}</p>
-        <p>git - ${data.git}</p>
+        <p>git - <a href="${data.git}">${data.git}</a></p>
         <p>jobNegative - ${data.jobNegative}</p>
         <p>comments1 - ${data.comments1}</p>
         <p>comments2 - ${data.comments2}</p>
